@@ -17,7 +17,7 @@ public class CalculatorController {
 
     @GetMapping("/health")
     public String healthCheck() {
-        return "jenkins pipeline test2";
+        return "jenkins pipeline test";
     }
 
     @GetMapping("/plus")
